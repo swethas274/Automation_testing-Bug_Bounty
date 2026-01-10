@@ -1,0 +1,52 @@
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsImtpZCI6Ilh0NEU4bk9PaXRuMXJ1RUkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3pqdmRtemtweXJxaGllcW1wc2tsLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJmNzFiOTIxOS1hOThkLTRhODEtYThjMS1lNjRjMGMyZWE3YjEiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY3OTc0MzIxLCJpYXQiOjE3Njc5NzA3MjEsImVtYWlsIjoibGFuYWhpZDg3MUBqcGFya3NreS5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsIjoibGFuYWhpZDg3MUBqcGFya3NreS5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJmNzFiOTIxOS1hOThkLTRhODEtYThjMS1lNjRjMGMyZWE3YjEifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc2Nzk3MDcyMX1dLCJzZXNzaW9uX2lkIjoiNTdhYTZiNzAtOGI4ZC00OGIyLTllY2ItMjk1MjMxNjk3ZTFmIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.t6eiOaG6VWohI3PeGmqBnH8l6ysicPaUWt501vsWhSE",
+    "token_type": "bearer",
+    "expires_in": 3600,
+    "expires_at": 1767974321,
+    "refresh_token": "erbbo5pm5xg2",
+    "user": {
+        "id": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1",
+        "aud": "authenticated",
+        "role": "authenticated",
+        "email": "lanahid871@jparksky.com",
+        "email_confirmed_at": "2026-01-09T14:58:18.069038Z",
+        "phone": "",
+        "confirmation_sent_at": "2026-01-09T14:57:52.761971Z",
+        "confirmed_at": "2026-01-09T14:58:18.069038Z",
+        "last_sign_in_at": "2026-01-09T14:58:41.179013009Z",
+        "app_metadata": {
+            "provider": "email",
+            "providers": [
+                "email"
+            ]
+        },
+        "user_metadata": {
+            "email": "lanahid871@jparksky.com",
+            "email_verified": true,
+            "phone_verified": false,
+            "sub": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1"
+        },
+        "identities": [
+            {
+                "identity_id": "56256177-c342-40dc-a6ff-5b80734c22ea",
+                "id": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1",
+                "user_id": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1",
+                "identity_data": {
+                    "email": "lanahid871@jparksky.com",
+                    "email_verified": true,
+                    "phone_verified": false,
+                    "sub": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1"
+                },
+                "provider": "email",
+                "last_sign_in_at": "2026-01-09T14:57:52.708736Z",
+                "created_at": "2026-01-09T14:57:52.709482Z",
+                "updated_at": "2026-01-09T14:57:52.709482Z",
+                "email": "lanahid871@jparksky.com"
+            }
+        ],
+        "created_at": "2026-01-09T14:57:52.628305Z",
+        "updated_at": "2026-01-09T14:58:41.222323Z",
+        "is_anonymous": false
+    },
+    "weak_password": null
+}

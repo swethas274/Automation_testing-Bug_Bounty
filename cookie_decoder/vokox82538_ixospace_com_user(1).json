@@ -1,0 +1,90 @@
+{
+    "access_token": {
+        "header": {
+            "alg": "HS256",
+            "kid": "Xt4E8nOOitn1ruEI",
+            "typ": "JWT"
+        },
+        "payload": {
+            "iss": "https://zjvdmzkpyrqhieqmpskl.supabase.co/auth/v1",
+            "sub": "1c0fe296-942d-42d1-adfa-a2d6f6e50ef2",
+            "aud": "authenticated",
+            "exp": 1767974877,
+            "iat": 1767971277,
+            "email": "vokox82538@ixospace.com",
+            "phone": "",
+            "app_metadata": {
+                "provider": "email",
+                "providers": [
+                    "email"
+                ]
+            },
+            "user_metadata": {
+                "email": "vokox82538@ixospace.com",
+                "email_verified": true,
+                "phone_verified": false,
+                "sub": "1c0fe296-942d-42d1-adfa-a2d6f6e50ef2"
+            },
+            "role": "authenticated",
+            "aal": "aal1",
+            "amr": [
+                {
+                    "method": "password",
+                    "timestamp": 1767971277
+                }
+            ],
+            "session_id": "3aeeb687-e41c-47b7-af12-8d6a0ba0c596",
+            "is_anonymous": false
+        },
+        "raw": "eyJhbGciOiJIUzI1NiIsImtpZCI6Ilh0NEU4bk9PaXRuMXJ1RUkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3pqdmRtemtweXJxaGllcW1wc2tsLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiIxYzBmZTI5Ni05NDJkLTQyZDEtYWRmYS1hMmQ2ZjZlNTBlZjIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY3OTc0ODc3LCJpYXQiOjE3Njc5NzEyNzcsImVtYWlsIjoidm9rb3g4MjUzOEBpeG9zcGFjZS5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsIjoidm9rb3g4MjUzOEBpeG9zcGFjZS5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiIxYzBmZTI5Ni05NDJkLTQyZDEtYWRmYS1hMmQ2ZjZlNTBlZjIifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc2Nzk3MTI3N31dLCJzZXNzaW9uX2lkIjoiM2FlZWI2ODctZTQxYy00N2I3LWFmMTItOGQ2YTBiYTBjNTk2IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.Nn7xeOw6PMIeGbOCyMapUSPQeJ7f4QpiroQo6X-jhz4"
+    },
+    "token_type": "bearer",
+    "expires_in": 3600,
+    "expires_at": 1767974877,
+    "refresh_token": "zspa36hdqwip",
+    "user": {
+        "id": "1c0fe296-942d-42d1-adfa-a2d6f6e50ef2",
+        "aud": "authenticated",
+        "role": "authenticated",
+        "email": "vokox82538@ixospace.com",
+        "email_confirmed_at": "2026-01-09T15:07:45.115785Z",
+        "phone": "",
+        "confirmation_sent_at": "2026-01-09T15:06:22.163643Z",
+        "confirmed_at": "2026-01-09T15:07:45.115785Z",
+        "last_sign_in_at": "2026-01-09T15:07:56.999529213Z",
+        "app_metadata": {
+            "provider": "email",
+            "providers": [
+                "email"
+            ]
+        },
+        "user_metadata": {
+            "email": "vokox82538@ixospace.com",
+            "email_verified": true,
+            "phone_verified": false,
+            "sub": "1c0fe296-942d-42d1-adfa-a2d6f6e50ef2"
+        },
+        "identities": [
+            {
+                "identity_id": "03833c0c-4524-4a64-b74b-2fabc7e7797c",
+                "id": "1c0fe296-942d-42d1-adfa-a2d6f6e50ef2",
+                "user_id": "1c0fe296-942d-42d1-adfa-a2d6f6e50ef2",
+                "identity_data": {
+                    "email": "vokox82538@ixospace.com",
+                    "email_verified": true,
+                    "phone_verified": false,
+                    "sub": "1c0fe296-942d-42d1-adfa-a2d6f6e50ef2"
+                },
+                "provider": "email",
+                "last_sign_in_at": "2026-01-09T15:06:22.147284Z",
+                "created_at": "2026-01-09T15:06:22.147335Z",
+                "updated_at": "2026-01-09T15:06:22.147335Z",
+                "email": "vokox82538@ixospace.com"
+            }
+        ],
+        "created_at": "2026-01-09T15:06:22.122706Z",
+        "updated_at": "2026-01-09T15:07:57.017488Z",
+        "is_anonymous": false
+    },
+    "weak_password": null
+}

@@ -1,0 +1,93 @@
+{
+    "decoded_cookie": {
+        "access_token": {
+            "header": {
+                "alg": "HS256",
+                "kid": "Xt4E8nOOitn1ruEI",
+                "typ": "JWT"
+            },
+            "payload": {
+                "iss": "https://zjvdmzkpyrqhieqmpskl.supabase.co/auth/v1",
+                "sub": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1",
+                "aud": "authenticated",
+                "exp": 1767974321,
+                "iat": 1767970721,
+                "email": "lanahid871@jparksky.com",
+                "phone": "",
+                "app_metadata": {
+                    "provider": "email",
+                    "providers": [
+                        "email"
+                    ]
+                },
+                "user_metadata": {
+                    "email": "lanahid871@jparksky.com",
+                    "email_verified": true,
+                    "phone_verified": false,
+                    "sub": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1"
+                },
+                "role": "authenticated",
+                "aal": "aal1",
+                "amr": [
+                    {
+                        "method": "password",
+                        "timestamp": 1767970721
+                    }
+                ],
+                "session_id": "57aa6b70-8b8d-48b2-9ecb-295231697e1f",
+                "is_anonymous": false
+            },
+            "raw": "eyJhbGciOiJIUzI1NiIsImtpZCI6Ilh0NEU4bk9PaXRuMXJ1RUkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3pqdmRtemtweXJxaGllcW1wc2tsLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJmNzFiOTIxOS1hOThkLTRhODEtYThjMS1lNjRjMGMyZWE3YjEiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY3OTc0MzIxLCJpYXQiOjE3Njc5NzA3MjEsImVtYWlsIjoibGFuYWhpZDg3MUBqcGFya3NreS5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsIjoibGFuYWhpZDg3MUBqcGFya3NreS5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJmNzFiOTIxOS1hOThkLTRhODEtYThjMS1lNjRjMGMyZWE3YjEifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc2Nzk3MDcyMX1dLCJzZXNzaW9uX2lkIjoiNTdhYTZiNzAtOGI4ZC00OGIyLTllY2ItMjk1MjMxNjk3ZTFmIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.t6eiOaG6VWohI3PeGmqBnH8l6ysicPaUWt501vsWhSE"
+        },
+        "token_type": "bearer",
+        "expires_in": 3600,
+        "expires_at": 1767974321,
+        "refresh_token": "erbbo5pm5xg2",
+        "user": {
+            "id": "1c0fe296-942d-42d1-adfa-a2d6f6e50ef2",
+            "aud": "authenticated",
+            "role": "authenticated",
+            "email": "lanahid871@jparksky.com",
+            "email_confirmed_at": "2026-01-09T14:58:18.069038Z",
+            "phone": "",
+            "confirmation_sent_at": "2026-01-09T14:57:52.761971Z",
+            "confirmed_at": "2026-01-09T14:58:18.069038Z",
+            "last_sign_in_at": "2026-01-09T14:58:41.179013009Z",
+            "app_metadata": {
+                "provider": "email",
+                "providers": [
+                    "email"
+                ]
+            },
+            "user_metadata": {
+                "email": "lanahid871@jparksky.com",
+                "email_verified": true,
+                "phone_verified": false,
+                "sub": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1"
+            },
+            "identities": [
+                {
+                    "identity_id": "56256177-c342-40dc-a6ff-5b80734c22ea",
+                    "id": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1",
+                    "user_id": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1",
+                    "identity_data": {
+                        "email": "lanahid871@jparksky.com",
+                        "email_verified": true,
+                        "phone_verified": false,
+                        "sub": "f71b9219-a98d-4a81-a8c1-e64c0c2ea7b1"
+                    },
+                    "provider": "email",
+                    "last_sign_in_at": "2026-01-09T14:57:52.708736Z",
+                    "created_at": "2026-01-09T14:57:52.709482Z",
+                    "updated_at": "2026-01-09T14:57:52.709482Z",
+                    "email": "lanahid871@jparksky.com"
+                }
+            ],
+            "created_at": "2026-01-09T14:57:52.628305Z",
+            "updated_at": "2026-01-09T14:58:41.222323Z",
+            "is_anonymous": false
+        },
+        "weak_password": null
+    },
+    "cookie_base64": "eyJhY2Nlc3NfdG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlJc0ltdHBaQ0k2SWxoME5FVTRiazlQYVhSdU1YSjFSVWtpTENKMGVYQWlPaUpLVjFRaWZRLmV5SnBjM01pT2lKb2RIUndjem92TDNwcWRtUnRlbXR3ZVhKeGFHbGxjVzF3YzJ0c0xuTjFjR0ZpWVhObExtTnZMMkYxZEdndmRqRWlMQ0p6ZFdJaU9pSm1OekZpT1RJeE9TMWhPVGhrTFRSaE9ERXRZVGhqTVMxbE5qUmpNR015WldFM1lqRWlMQ0poZFdRaU9pSmhkWFJvWlc1MGFXTmhkR1ZrSWl3aVpYaHdJam94TnpZM09UYzBNekl4TENKcFlYUWlPakUzTmpjNU56QTNNakVzSW1WdFlXbHNJam9pYkdGdVlXaHBaRGczTVVCcWNHRnlhM05yZVM1amIyMGlMQ0p3YUc5dVpTSTZJaUlzSW1Gd2NGOXRaWFJoWkdGMFlTSTZleUp3Y205MmFXUmxjaUk2SW1WdFlXbHNJaXdpY0hKdmRtbGtaWEp6SWpwYkltVnRZV2xzSWwxOUxDSjFjMlZ5WDIxbGRHRmtZWFJoSWpwN0ltVnRZV2xzSWpvaWJHRnVZV2hwWkRnM01VQnFjR0Z5YTNOcmVTNWpiMjBpTENKbGJXRnBiRjkyWlhKcFptbGxaQ0k2ZEhKMVpTd2ljR2h2Ym1WZmRtVnlhV1pwWldRaU9tWmhiSE5sTENKemRXSWlPaUptTnpGaU9USXhPUzFoT1Roa0xUUmhPREV0WVRoak1TMWxOalJqTUdNeVpXRTNZakVpZlN3aWNtOXNaU0k2SW1GMWRHaGxiblJwWTJGMFpXUWlMQ0poWVd3aU9pSmhZV3d4SWl3aVlXMXlJanBiZXlKdFpYUm9iMlFpT2lKd1lYTnpkMjl5WkNJc0luUnBiV1Z6ZEdGdGNDSTZNVGMyTnprM01EY3lNWDFkTENKelpYTnphVzl1WDJsa0lqb2lOVGRoWVRaaU56QXRPR0k0WkMwME9HSXlMVGxsWTJJdE1qazFNak14TmprM1pURm1JaXdpYVhOZllXNXZibmx0YjNWeklqcG1ZV3h6WlgwLnQ2ZWlPYUc2VldvaEkzUGVHbXFCbkg4bDZ5c2ljUGFVV3Q1MDF2c1doU0UiLCJ0b2tlbl90eXBlIjoiYmVhcmVyIiwiZXhwaXJlc19pbiI6MzYwMCwiZXhwaXJlc19hdCI6MTc2Nzk3NDMyMSwicmVmcmVzaF90b2tlbiI6ImVyYmJvNXBtNXhnMiIsInVzZXIiOnsiaWQiOiIxYzBmZTI5Ni05NDJkLTQyZDEtYWRmYS1hMmQ2ZjZlNTBlZjIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJlbWFpbCI6ImxhbmFoaWQ4NzFAanBhcmtza3kuY29tIiwiZW1haWxfY29uZmlybWVkX2F0IjoiMjAyNi0wMS0wOVQxNDo1ODoxOC4wNjkwMzhaIiwicGhvbmUiOiIiLCJjb25maXJtYXRpb25fc2VudF9hdCI6IjIwMjYtMDEtMDlUMTQ6NTc6NTIuNzYxOTcxWiIsImNvbmZpcm1lZF9hdCI6IjIwMjYtMDEtMDlUMTQ6NTg6MTguMDY5MDM4WiIsImxhc3Rfc2lnbl9pbl9hdCI6IjIwMjYtMDEtMDlUMTQ6NTg6NDEuMTc5MDEzMDA5WiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsIjoibGFuYWhpZDg3MUBqcGFya3NreS5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJmNzFiOTIxOS1hOThkLTRhODEtYThjMS1lNjRjMGMyZWE3YjEifSwiaWRlbnRpdGllcyI6W3siaWRlbnRpdHlfaWQiOiI1NjI1NjE3Ny1jMzQyLTQwZGMtYTZmZi01YjgwNzM0YzIyZWEiLCJpZCI6ImY3MWI5MjE5LWE5OGQtNGE4MS1hOGMxLWU2NGMwYzJlYTdiMSIsInVzZXJfaWQiOiJmNzFiOTIxOS1hOThkLTRhODEtYThjMS1lNjRjMGMyZWE3YjEiLCJpZGVudGl0eV9kYXRhIjp7ImVtYWlsIjoibGFuYWhpZDg3MUBqcGFya3NreS5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiJmNzFiOTIxOS1hOThkLTRhODEtYThjMS1lNjRjMGMyZWE3YjEifSwicHJvdmlkZXIiOiJlbWFpbCIsImxhc3Rfc2lnbl9pbl9hdCI6IjIwMjYtMDEtMDlUMTQ6NTc6NTIuNzA4NzM2WiIsImNyZWF0ZWRfYXQiOiIyMDI2LTAxLTA5VDE0OjU3OjUyLjcwOTQ4MloiLCJ1cGRhdGVkX2F0IjoiMjAyNi0wMS0wOVQxNDo1Nzo1Mi43MDk0ODJaIiwiZW1haWwiOiJsYW5haGlkODcxQGpwYXJrc2t5LmNvbSJ9XSwiY3JlYXRlZF9hdCI6IjIwMjYtMDEtMDlUMTQ6NTc6NTIuNjI4MzA1WiIsInVwZGF0ZWRfYXQiOiIyMDI2LTAxLTA5VDE0OjU4OjQxLjIyMjMyM1oiLCJpc19hbm9ueW1vdXMiOmZhbHNlfSwid2Vha19wYXNzd29yZCI6bnVsbH0="
+}
